@@ -1,3 +1,7 @@
+  // "author": "Chris Hager <chris@linuxuser.at>",
+  // "repository": "https://github.com/metachris/typescript-boilerplate",
+  // "license": "MIT",
+
 export const delayMillis = (delayMs: number): Promise<void> => new Promise(resolve => setTimeout(resolve, delayMs));
 
 export const greet = (name: string): string => `Hello ${name}`
